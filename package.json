@@ -1,0 +1,37 @@
+{
+  "name": "lit-element-serializers",
+  "version": "0.0.1",
+  "description": "Common attribute serializers for use with lit-element",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run lint && tsc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "mocha \"lib/test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43081j/lit-element-serializers.git"
+  },
+  "keywords": [
+    "lit-html",
+    "lit-element",
+    "polymer"
+  ],
+  "author": "James Garbutt <https://github.com/43081j>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/43081j/lit-element-serializers/issues"
+  },
+  "homepage": "https://github.com/43081j/lit-element-serializers#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "eslint": "^5.6.1",
+    "eslint-config-google": "^0.10.0",
+    "eslint-plugin-typescript": "^0.12.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.1.1",
+    "typescript-eslint-parser": "^19.0.2"
+  }
+}

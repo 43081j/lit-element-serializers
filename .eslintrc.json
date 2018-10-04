@@ -1,0 +1,4 @@
+{
+  "extends": "google",
+  "parser": "typescript-eslint-parser"
+}
