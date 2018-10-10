@@ -4,7 +4,6 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./lib",
-    "importHelpers": true,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

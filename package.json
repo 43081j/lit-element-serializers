@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run lint && tsc",
     "lint": "eslint \"src/**/*.ts\"",
-    "test": "mocha \"lib/test/**/*.js\""
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,17 +24,18 @@
   },
   "homepage": "https://github.com/43081j/lit-element-serializers#readme",
   "devDependencies": {
-    "@types/chai": "^4.1.6",
-    "@types/mocha": "^5.2.5",
-    "chai": "^4.2.0",
+    "@types/jest": "^23.3.5",
     "eslint": "^5.6.1",
     "eslint-config-google": "^0.10.0",
     "eslint-plugin-typescript": "^0.12.0",
-    "mocha": "^5.2.0",
+    "jest": "^23.6.0",
+    "jsdom": "^12.2.0",
+    "ts-jest": "^23.10.4",
     "typescript": "^3.1.1",
     "typescript-eslint-parser": "^19.0.2"
   },
   "dependencies": {
-    "@polymer/lit-element": "^0.6.2"
+    "@polymer/lit-element": "^0.6.2",
+    "date-fns": "^2.0.0-alpha.22"
   }
 }
